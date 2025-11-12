@@ -65,13 +65,6 @@ Notes
 - For deterministic model splits, set a fixed `random_state` where provided.
 - The Random Forest block performs a small grid search for clarity (fast to run). Scale the grid for deeper tuning as needed.
 
-## What Recruiters Should Notice
-
-- Clear problem framing: 48-period day‑ahead forecasting aligned to grid operations
-- Clean, readable code with explicit data integrity checks
-- Baseline + ensemble comparison with visual diagnostics and normalized KPIs
-- Practical next steps outlined (calendar/weather features, rolling-origin evaluation, sequence models)
-
 ## Next Steps (Future Work)
 
 - Add calendar features (day‑of‑week, holidays, seasonal markers) and weather covariates
